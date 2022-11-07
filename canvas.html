@@ -8,6 +8,13 @@
   </head>
   <body>
     <canvas id="canvas" width="400" height="400" style="border: 2px solid">
+      <script>
+        var canvas = document.getElementById('canvas');
+        var pincel = canvas.getContext('2d');
+        pincel.moveTo(0, 0);
+        pincel.lineTo(200, 200);
+        pincel.stroke();
+      </script>
     </canvas>
   </body>
 </html>
