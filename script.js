@@ -13,8 +13,8 @@ glucose1 = document.getElementById('glucose5');
 glucose1 = document.getElementById('glucose6');
 glucose1 = document.getElementById('glucose7');
 
-glucose(){
+glucose() {
   let glucose1 = document.getElementById('glucose1')
-  let glucose1Num = Number(glucose1.value)
   
+
 }

@@ -9,15 +9,32 @@
   </head>
   <body>
     <a href="index.html">Index</a>
-    <div id="glucose">
-      Glucose<input type="number" name="glucose" id="glucose" min="0" />
-    </div>
-    <div id="ldl">
-      LDL-cholesterol<input type="number" name="LDL" id="LDL" min="0" />
-    </div>
-    <div id="hdl">
-      HDL-cholesterol<input type="number" name="HDL" id="HDL" min="0" />
-    </div>
+    <table>
+      <caption>
+        Female results
+      </caption>
+      <tr>
+        <th>Exam</th>
+        <th>Date<input type="date" name="date1" id="date1" />Result</th>
+        <th>Date<input type="date" name="date2" id="date2" />Result</th>
+        <th>Date<input type="date" name="date3" id="date3" />Result</th>
+        <th>Date<input type="date" name="date4" id="date4" />Result</th>
+        <th>Date<input type="date" name="date5" id="date5" />Result</th>
+        <th>Date<input type="date" name="date6" id="date6" />Result</th>
+        <th>Date<input type="date" name="date7" id="date7" />Result</th>
+      </tr>
+      <tr onchange="glocose()">
+        <td><input type="checkbox" name="glucose" id="glucose" />Glucose</td>
+        <td><input type="number" name="glucose1" id="glucose1" /></td>
+        <td><input type="number" name="glucose2" id="glucose2" /></td>
+        <td><input type="number" name="glucose3" id="glucose3" /></td>
+        <td><input type="number" name="glucose4" id="glucose4" /></td>
+        <td><input type="number" name="glucose5" id="glucose5" /></td>
+        <td><input type="number" name="glucose6" id="glucose6" /></td>
+        <td><input type="number" name="glucose7" id="glucose7" /></td>
+      </tr>
+    </table>
+
     <script src="script.js"></script>
   </body>
 </html>
