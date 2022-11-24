@@ -13,8 +13,7 @@ glucose1 = document.getElementById('glucose5');
 glucose1 = document.getElementById('glucose6');
 glucose1 = document.getElementById('glucose7');
 
-glucose();
-{
+function glucose() {
   let glucose1 = document.getElementById('glucose1');
   let glocoNum1 = Number(glucose1.value);
   if (glocoNum1 > 100) {
