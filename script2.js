@@ -1,7 +1,8 @@
-function glucose() {
-  let glucose1 = document.getElementById('glucose1');
-  let gluco1Num = Number(glucose1.value);
-  if (gluco1Num > 100) {
-    window.alert('Above normal!');
-  }
+function idade() {
+  var data = new Date();
+  var ano = data.getFullYear();
+  var fano = document.getElementById('dateofbirth');
+  var idade = ano - Number(fano.value);
+  var res = document.getElementById('age');
+  res.innerHTML = ` ${idade}`;
 }
