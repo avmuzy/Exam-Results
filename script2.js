@@ -7,7 +7,10 @@ function calc() {
   res.innerHTML = ` ${idade}`;
 
   var height = document.getElementById('height');
+  var heigval = Number(height.value);
   var weight = document.getElementById('weight');
-  var bmi = weight / (height**2)
-  
+  var weigval = Number(weight.value);
+  var bmi = weigval / heigval ** 2;
+  var bmires = document.getElementById('bmi');
+  bmires.innerHTML = `${bmi}`;
 }
